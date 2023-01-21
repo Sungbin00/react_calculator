@@ -34,7 +34,7 @@ function App() {
   return (
     <div className='container'>
       <div className='wrapper'>
-        <div className='screen'></div>
+        <div className='screen'>{input}</div>
         <div className='btn light-gray' onClick={reset}>AC</div>
         <div className='btn light-gray' onClick={percent}>%</div>
         <div className='btn light-gray' onClick={minusPlus}>+/-</div>
@@ -51,7 +51,7 @@ function App() {
         <div className='btn' onClick={inputNum}>2</div>
         <div className='btn' onClick={inputNum}>3</div>
         <div className='btn orange' onClick={operatorType}>-</div>
-        <div className='btn' onClick={inputNum}>0</div>
+        <div className='btn zero' onClick={inputNum}>0</div>
         <div className='btn' onClick={inputNum}>.</div>
         <div className='btn' onClick={equals}>=</div>
       </div>
